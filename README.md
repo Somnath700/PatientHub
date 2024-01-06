@@ -10,9 +10,9 @@ MySQL or another relational database of your choice
 ## Clone the repository:
 git clone https://github.com/Somnath700/PatientHub.git
 
-##Create a MySQL database and update the application.properties file with your database configuration:
+## Create a MySQL database and update the application.properties file with your database configuration:
 
-properties
+## properties
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.datasource.url = jdbc:mysql://localhost:3306/patient_hub_service?createTableIfNotExists=true
 spring.datasource.username = root
